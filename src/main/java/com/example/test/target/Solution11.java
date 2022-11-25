@@ -3,6 +3,9 @@ package com.example.test.target;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/132265
+ * */
 public class Solution11 {
     // 가운데까지 종류 개수를 지정하고, 좌 측으로 한칸씩 움직이면서 개수가 같은 지점을 센다. 그리고, 다시 중앙으로 부터 우측으로 움직이면서 개수가 같은 지점의 개수를 센다.
     public int solution(int[] topping) {
